@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test-docling"
+version = "0.1.0"
+description = "Test Docling package for document processing"
+authors = ["hongthana <thanawat.rn@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+docling = "^2.4.0"
+gradio = "^5.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
