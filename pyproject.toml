@@ -11,6 +11,9 @@ python = "^3.10"
 docling = "^2.4.0"
 gradio = "^5.5.0"
 
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.0"
+pytest-cov = "^4.0.0"
 
 [build-system]
 requires = ["poetry-core"]
